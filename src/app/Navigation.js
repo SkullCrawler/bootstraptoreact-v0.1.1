@@ -19,7 +19,7 @@ export default function Navigation() {
 	        <Link to='/portfolio' className="nav-link " data-value="portfolio">Portfolio</Link>
 	      </li>
 	      <li className="nav-item">
-	        <Link to='/posts' className="nav-link " data-value="posts">Posts</Link>
+	        <Link to='/blog' className="nav-link " data-value="blog">Blog</Link>
 	      </li>
 	      <li className="nav-item">
 	        <Link to='/team' className="nav-link " data-value="team">Team</Link>

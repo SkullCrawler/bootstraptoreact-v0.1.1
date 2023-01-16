@@ -1,4 +1,6 @@
 import React from 'react'
+import posts from './imageImport';
+
 
 export default function Posts() {
   return (
@@ -9,13 +11,12 @@ export default function Posts() {
 			<div className="col-md-4 col-lg-4 col-sm-12">
 				<div className="card">
 					<div className="card-img">
-						<img src="images/posts/" alt="Blog 1" className="img-fluid"></img>
+						<img src={posts.post1} alt="Post 1" className="img-fluid"/>
 					</div>
 					
 					<div className="card-body">
 					<h4 className="card-title">Post Title</h4>
 						<p className="card-text">
-							
 							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 						</p>
 					</div>
@@ -27,7 +28,7 @@ export default function Posts() {
 			<div className="col-md-4 col-lg-4 col-sm-12">
 				<div className="card">
 					<div className="card-img">
-						<img src="images/posts/" alt="Blog 2" className="img-fluid"></img>
+						<img src={posts.post2} alt="Post 2" className="img-fluid"/>
 					</div>
 					
 					<div className="card-body">
@@ -45,7 +46,7 @@ export default function Posts() {
 			<div className="col-md-4 col-lg-4 col-sm-12">
 				<div className="card">
 					<div className="card-img">
-						<img src="images/posts/" alt="Blog 3" className="img-fluid"></img>
+						<img src={posts.post3} alt="Post 3" className="img-fluid"/>
 					</div>
 					
 					<div className="card-body">

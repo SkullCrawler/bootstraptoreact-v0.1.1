@@ -12,27 +12,30 @@ import { BrowserRouter as Router, Routes, Route, useNavigate} from 'react-router
 
 function App() {
   return (
-    <Router>
-      <Navigation/>
-      <div className="App">
-        <Routes>
-          <Route exact path='/' element={<Header  />} />
-          <Route exact path='/about' element={<About  />} />
-          <Route exact path='/portfolio' element={<Portfolio  />} />
-          <Route exact path='/posts' element={<Posts  />} />
-          <Route exact path='/team' element={<Team  />} />
-          <Route exact path='/contact' element={<Contact  />} />
-        </Routes>
-        {/* 
-        Depricated Since version 0.1.0
-        <About/>
-        <Portfolio/>
-        <Posts/>
-        <Team/>
-        <Contact/> */}
-        <Footer/>
-      </div>
-    </Router>
+    <>
+      <Router>
+        <Navigation/>
+        <div className="App">
+          <Routes>
+            <Route exact path='/' element={<Header  />} />
+            <Route exact path='/about' element={<About  />} />
+            <Route exact path='/portfolio' element={<Portfolio  />} />
+            <Route exact path='/blog' element={<Posts  />} />
+            <Route exact path='/team' element={<Team  />} />
+            <Route exact path='/contact' element={<Contact  />} />
+          </Routes>
+          {/* 
+          Depricated Since version 0.1.0
+          <About/>
+          <Portfolio/>
+          <Posts/>
+          <Team/>
+          <Contact/> */}
+          
+        </div>
+      </Router>
+      <Footer/>
+    </>
   );
 }
 // Depricated since version 0.0.1

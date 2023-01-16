@@ -1,4 +1,5 @@
 import React from 'react'
+import team from './imageImport';
 
 export default function About() {
   return (
@@ -7,9 +8,7 @@ export default function About() {
 	  <h1 className="text-center">About Me</h1>
 		<div className="row">
 			<div className="col-lg-4 col-md-4 col-sm-12">
-				<div className="img-fluid" alt="S.web" id="s-web">
-					
-				</div>
+				<img className="img-fluid" alt="S.web" id="s-web" src={team.team1}/>
 				<span className="text-justify">S.Web Developer</span>
 			</div>
 			<div className="col-lg-8 col-md-8 col-sm-12 desc">
