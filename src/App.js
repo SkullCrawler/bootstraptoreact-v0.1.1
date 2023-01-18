@@ -6,7 +6,7 @@ import About from './app/About';
 import Portfolio from './app/Portfolio';
 import Posts from './app/Posts';
 import Team from './app/Team';
-import Contact from './app/Contact';
+import {Contact} from './app/Contact';
 import Footer from './app/Footer';
 import { BrowserRouter as Router, Routes, Route, useNavigate} from 'react-router-dom';
 

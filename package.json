@@ -1,8 +1,9 @@
 {
   "name": "bootstraptoreact-v1",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -39,5 +40,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkullCrawler/bootstraptoreact-v0.1.1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SkullCrawler/bootstraptoreact-v0.1.1/issues"
+  },
+  "homepage": "https://github.com/SkullCrawler/bootstraptoreact-v0.1.1#readme"
 }
