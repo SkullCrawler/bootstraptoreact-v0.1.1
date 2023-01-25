@@ -21,7 +21,7 @@ export default function Posts() {
 						</p>
 					</div>
 					<div className="card-footer">
-						<a href="" className="card-link">Read more</a>
+						<a href="#" className="card-link">Read more</a>
 					</div>
 				</div>
 			</div>
@@ -39,7 +39,7 @@ export default function Posts() {
 						</p>
 					</div>
 					<div className="card-footer">
-						<a href="" className="card-link">Read more</a>
+						<a href="#" className="card-link">Read more</a>
 					</div>
 				</div>
 			</div>
@@ -57,7 +57,7 @@ export default function Posts() {
 						</p>
 					</div>
 					<div className="card-footer">
-						<a href="" className="card-link">Read more</a>
+						<a href="#" className="card-link">Read more</a>
 					</div>
 				</div>
 			</div>

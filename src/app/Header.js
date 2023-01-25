@@ -11,7 +11,7 @@ var imgStyle = {
 export default function Header() {
   return (
 	<div>
-		<img style={imgStyle} src={headerback} />
+		<img style={imgStyle} src={headerback} alt="headerback"/>
 		<header className="header">
 			<div className="overlay"></div>
 			<div className="container">

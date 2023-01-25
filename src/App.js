@@ -8,7 +8,7 @@ import Posts from './app/Posts';
 import Team from './app/Team';
 import {Contact} from './app/Contact';
 import Footer from './app/Footer';
-import { BrowserRouter as Router, Routes, Route, useNavigate} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (

@@ -2,6 +2,7 @@
   "name": "bootstraptoreact-v1",
   "version": "0.1.1",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -53,6 +54,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SkullCrawler/bootstraptoreact-v0.1.1/issues"
-  },
-  "homepage": "https://github.com/SkullCrawler/bootstraptoreact-v0.1.1#readme"
+  }
 }
