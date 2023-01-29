@@ -17,10 +17,13 @@ export default function Header() {
 			<div className="container">
 				<div className="description ">
 					<h1>
-						Hello ,Welcome To My official Website
+						We are a graphic design agency <br/> for visually compelling stories.
 						<p>
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupiatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						Our user experience and interface design philosophy focuses on aligning 
+						intuitive human interactions with specific business outcomes to deliver 
+						the most exceptional results for the user. Successful digital solutions 
+						solve problems and create engagement opportunities where they didn't 
+						exist before.</p>
 						<button className="btn btn-outline-secondary btn-lg">See more</button>
 					</h1>
 				</div>

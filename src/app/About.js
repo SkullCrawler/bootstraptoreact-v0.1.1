@@ -5,20 +5,25 @@ export default function About() {
   return (
     <div className="about" id="about">
 	<div className="container">
-	  <h1 className="text-center">About Me</h1>
+	  <h1 className="text-center">About Us</h1>
 		<div className="row">
 			<div className="col-lg-4 col-md-4 col-sm-12">
-				<img className="img-fluid" alt="S.web" id="s-web" src={team.team1}/>
-				<span className="text-justify">S.Web Developer</span>
+				<img className="img-fluid" alt="team" id="s-web" src={team.team}/>
+				{/* <span className="text-justify">S.Web Developer</span> */}
 			</div>
 			<div className="col-lg-8 col-md-8 col-sm-12 desc">
 			  
-				<h3>Rayyan Waseem</h3>
+				<h3>We have a simple vision</h3>
 				<p>
-					Expertise in Web Design UI/UX Design and Front End - Development. 
-					Extensive experience in creating initial web concepts and solutions 
-					using wireframes and rapid to high fidelity prototypes, integrating 
-					user-centered design, technologies, and business strategy.
+				We are a creative team that loves design, new approaches and clarity.<br/> 
+				We created <i>RayTech</i> with a simple vision and philosophy in mind:<br/><br/>
+
+				&nbsp;&nbsp;&nbsp;<i><b>- Design an easier and pleasant online experience for users.</b></i><br/><br/>
+
+				A good experience needs to be simple, have a clear message, be focused on the <br/>
+				user needs, but most of all need to fulfil a purpose.<br/><br/>
+
+				<span className="text-muted"> ~ S.Web Developer</span>
 				</p>
 			</div>
 		</div>

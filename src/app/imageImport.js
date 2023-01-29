@@ -2,6 +2,7 @@ import team1 from "../images/team/team1.jpg";
 import team2 from "../images/team/team2.jpg";
 import team3 from "../images/team/team3.jpg";
 import team4 from "../images/team/team4.jpg";
+// import team from "../images/team/team.jpg";
 import port1 from "../images/portfolio/port1.jpg";
 import port2 from "../images/portfolio/port2.jpg";
 import port3 from "../images/portfolio/port3.jpg";
@@ -24,6 +25,7 @@ export default{
     'team2':team2,
     'team3':team3,
     'team4':team4,
+    // 'team':team,
     // Portfolio
     'port1':port1,
     'port2':port2,

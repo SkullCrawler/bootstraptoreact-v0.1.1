@@ -7,14 +7,14 @@ export const Contact = () => {
 	const sendEmail = (e) => {
 	  e.preventDefault();
   
-	  emailjs.sendForm('service_e9d48mp', 'template_xmsu4ek', form.current, 'RHpABP1hA25fWNMEh')
-		.then((result) => {
-			console.log(result.text);
-			console.log("message sent!");
-			e.target.reset();
-		}, (error) => {
-			console.log(error.text);
-		});
+	//   emailjs.sendForm('service_e9d48mp', 'template_xmsu4ek', form.current, 'RHpABP1hA25fWNMEh')
+	// 	.then((result) => {
+	// 		console.log(result.text);
+	// 		console.log("message sent!");
+	// 		e.target.reset();
+	// 	}, (error) => {
+	// 		console.log(error.text);
+	// 	});
 	};
   return (
     <div className="contact-form" id="contact">
