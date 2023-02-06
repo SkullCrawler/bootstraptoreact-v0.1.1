@@ -6,7 +6,7 @@ export default function Team() {
     <div className="team" id="team">
 	<div className="container">
 	   <h1 className="text-center">Our Team</h1>
-		<div className="rw">
+		<div className="row">
 			<div className="col-lg-3 col-md-3 col-sm-12 item">
 				<img src={team.team4} className="img-fluid" alt="database-engineer"></img>
 				<div className="des">
