@@ -28,7 +28,7 @@ export const Contact = () => {
 				</div>
 				<div className="col-lg-8 col-md-8 col-sm-12 right">
 				   <div className="form-group">
-				   	 <input type="text" className="form-control form-control-lg" placeholder="Your Name" name="name" id="user_name" value={name} onChange={(event) => handleChange(event)}></input>
+				   	 <input type="text" className="form-control form-control-lg" placeholder="Your Name" name="user_name"></input>
 				   </div>
 				   <div className="form-group">
 				   	 <input type="email" className="form-control form-control-lg" placeholder="YourEmail@email.com" name="user_email"></input>
