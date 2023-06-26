@@ -8,7 +8,7 @@ export default function About() {
 	  <h1 className="text-center">About Us</h1>
 		<div className="row">
 			<div className="col-lg-4 col-md-4 col-sm-12">
-				<img className="img-fluid" alt="team" id="s-web" src={team.team}/>
+				<img className="img-fluid" alt="team" id="s-web" src={team.team1}/>
 				{/* <span className="text-justify">S.Web Developer</span> */}
 			</div>
 			<div className="col-lg-8 col-md-8 col-sm-12 desc">
