@@ -1,8 +1,10 @@
-import React, {useRef} from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { AlertBanner } from '@thumbtack/thumbprint-react';
 
 export const Contact = () => {
 	const form = useRef();
+	const [showAlert, setShowAlert] = useState(false);
   
 	const sendEmail = (e) => {
 	  e.preventDefault();
@@ -12,6 +14,7 @@ export const Contact = () => {
 			console.log(result.text);
 			console.log("message sent!");
 			e.target.reset();
+			setShowAlert(true);
 		}, (error) => {
 			console.log(error.text);
 		});
@@ -21,6 +24,13 @@ export const Contact = () => {
   return (
     <div className="contact-form" id="contact">
 	<div className="container">
+		{showAlert && (
+          <AlertBanner
+            intent="success"
+            title="Thank you for contacting us!"
+            onClose={() => setShowAlert(false)}
+          />
+        )}
 		<form ref={form} onSubmit={sendEmail}>
 			<div className="row">
 				<div className="col-lg-4 col-md-4 col-sm-12">
