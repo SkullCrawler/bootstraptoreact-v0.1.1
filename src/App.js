@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './App.css';
 import Header from './app/Header';
 import Navigation from './app/Navigation';
@@ -24,31 +23,11 @@ function App() {
             <Route exact path='/team' element={<Team  />} />
             <Route exact path='/contact' element={<Contact  />} />
           </Routes>
-          {/* 
-          Depricated Since version 0.1.0
-          <About/>
-          <Portfolio/>
-          <Posts/>
-          <Team/>
-          <Contact/> */}
-          
         </div>
       </Router>
       <Footer/>
     </>
   );
 }
-// Depricated since version 0.0.1
-// $(document).ready(function(){
-//   $('.header').height($(window).height());
- 
-//   $(".navbar a").click(function(){
-//       $("body,html").animate({
-//           scrollTop:$("#" + $(this).data('value')).offset().top
-//       },1000)
-   
-//   })
- 
-//  })
 
 export default App;
